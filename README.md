@@ -17,6 +17,8 @@ The geometry of the floating panel's view's layer hierarchy remains unchanged be
 
 The layer's bounds changes aspect ratio, seemingly in proportion to the rotation angle (or its slope?). The more level the angle, the more square the bounds.
 
+The change in bounds throws off the placement of the two shape layers that serve as content.
+
 ## Notes
 
 See log output for detailed reporting of the view's geometry and its layer's.
